@@ -1,0 +1,116 @@
+.contacts-form-input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	margin-top: 4px;
+	padding-left: 42px;
+	transition: 250ms;
+}
+.contacts-form-input:focus {
+	outline: none;
+	border: 1px solid #2196F3;
+}
+.contacts-form-input:focus + .modal-form-icon {
+	fill: #2196f3;
+}
+.span-text {
+	font-family: "Roboto", sans-serif;
+	color: #2196f3;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+.contact-form-massage {
+	width: 100%;
+	height: 120px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-top: 4px;
+	resize: none;
+	padding-top: 12px;
+	padding-left: 16px;
+	padding-bottom: 12px;
+	padding-right: 16px;
+	transition: 250ms;
+}
+.contact-form-massage:focus {
+	outline: none;
+	border: 1px solid #2196F3;
+}
+.contact-form-massage::placeholder {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.01em;
+	color: rgba(117, 117, 117, 0.5);
+}
+.textarea::-webkit-input-placeholder {
+	color: rgba(117, 117, 117, 0.5);
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+}
+.contacts-form-box:checked + .modal-text-span::before  {
+	background-image: url(../images/Vectorh.svg);
+	background-color: #2196F3;
+  background-position: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  border: 0px solid #fff;
+  border-radius: 2px;
+}
+.modal-text-span {
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	color: #757575;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	align-items: center;
+	margin-top: 20px;
+}
+.modal-text-span::before {
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #212121;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+.contact-form-btn {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	color: #ffffff;
+	background-color: #2196f3;
+	cursor: pointer;
+	border-radius: 4px;
+	border: none;
+	padding: 10px 55px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	transition: 250ms;
+	margin-left: 133px;
+	align-self: center;
+}
+.contact-form-btn:hover {
+	background-color: #188CE8;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.01), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}

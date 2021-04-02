@@ -1,0 +1,103 @@
+.footer {
+	background-color: #2f303a;
+  }
+  .footer .container {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+  .logo-contacts {
+	color: #ffffff;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1, 19;
+	letter-spacing: 0.03em;
+}
+.logo-color {
+	color: #2196f3;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1,19;
+	letter-spacing: 0.03em;
+	margin-bottom: 20px;
+}
+.maps {
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1,71;
+	letter-spacing: 0.03em;
+	font-style: #ffffff;
+	padding-top: 20px;
+	display: inline-block;
+}
+.contacts-info {
+	color: rgba(151, 139, 139, 0.6);
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    display: inline-block;
+    padding-top: 10px;
+}
+.address,
+.list-item-contact,
+.contacts-info {
+	display: flex;
+ 	 flex-direction: column;
+}
+  .invitation {
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	margin-bottom: 20px;
+    letter-spacing: 0.03em;
+	text-transform: uppercase;
+  }
+  .footer .icon-list {
+	display: flex;
+  }
+  .footer-wraper:not(:last-child) {
+	margin-right: 70px;
+  }
+.icon-li {
+	display: inline-flex;
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	background:rgba(255, 255, 255, 0.1);
+	transition: 250ms;
+}
+.icon-li:hover {
+	background-color: #2196f3;
+}
+  .icon-instagram2 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+  }
+  .icon-twitter1 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}
+.icon-facebook1 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}
+.icon-linkedin1 {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}

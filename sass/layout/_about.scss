@@ -1,0 +1,82 @@
+.about {
+	justify-content: center;
+	margin-right: 30px;
+}
+.about-list {
+	display: flex;
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.work {
+	flex-basis: calc(100% / 4 - 30px);
+	margin-left: 30px;
+}
+.icon-antenna1 {
+	display: flex;
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+	align-items: center;
+}
+.icon-clock1 {
+	display: flex;
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+}
+.icon-diagram1 {
+	display: flex;
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+}
+.icon-astronaut1 {
+	display: flex;
+	background-repeat: no-repeat;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+}
+.work-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1, 14;
+	letter-spacing: 0.03em;
+	font-style: normal;
+	color: #212121;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.work-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1, 71;
+	letter-spacing: 0.03em;
+	font-style: normal;
+	color: #757575;
+}
