@@ -14,10 +14,12 @@
 .close {
 	fill: #000;
 	transition: 250ms;
+
+	&:focus, &:hover {
+		fill: #2196F3;
+	}
 }
-.close:focus, .close:hover {
-	fill: #2196F3;
-}
+
 .modal-close-btn {
 	display: flex;
 	position: absolute;

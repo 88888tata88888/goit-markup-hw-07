@@ -7,11 +7,13 @@
 	margin-top: 4px;
 	padding-left: 42px;
 	transition: 250ms;
+
+	&:focus {
+		outline: none;
+		border: 1px solid #2196F3;
+	}
 }
-.contacts-form-input:focus {
-	outline: none;
-	border: 1px solid #2196F3;
-}
+
 .contacts-form-input:focus + .modal-form-icon {
 	fill: #2196f3;
 }
@@ -38,10 +40,11 @@
 	padding-bottom: 12px;
 	padding-right: 16px;
 	transition: 250ms;
-}
-.contact-form-massage:focus {
-	outline: none;
-	border: 1px solid #2196F3;
+
+	&:focus {
+		outline: none;
+		border: 1px solid #2196F3;
+	}
 }
 .contact-form-massage::placeholder {
 	font-family: "Roboto", sans-serif;
@@ -61,15 +64,7 @@
 	line-height: 1.16;
 	letter-spacing: 0.01em;
 }
-.contacts-form-box:checked + .modal-text-span::before  {
-	background-image: url(../images/Vectorh.svg);
-	background-color: #2196F3;
-  background-position: center;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  border: 0px solid #fff;
-  border-radius: 2px;
-}
+
 .modal-text-span {
 	display: flex;
 	font-family: "Roboto", sans-serif;
@@ -81,16 +76,28 @@
 	letter-spacing: 0.03em;
 	align-items: center;
 	margin-top: 20px;
-}
-.modal-text-span::before {
-	content: "";
-	display: block;
-	width: 16px;
-	height: 16px;
-	border: 2px solid #212121;
-	border-radius: 2px;
-	cursor: pointer;
-	margin-right: 8px;
+	
+	.contacts-form-box:checked + &::before  {
+		background-image: url(../images/Vectorh.svg);
+		background-color: #2196F3;
+  		background-position: center;
+ 		 cursor: pointer;
+  		background-repeat: no-repeat;
+  		border: 0px solid #fff;
+  		border-radius: 2px;
+    }
+
+    &::before {
+		content: "";
+		display: block;
+		width: 16px;
+		height: 16px;
+		border: 2px solid #212121;
+		border-radius: 2px;
+		cursor: pointer;
+		margin-right: 8px;
+    }
+    
 }
 .contact-form-btn {
 	font-family: "Roboto", sans-serif;
@@ -108,9 +115,10 @@
 	transition: 250ms;
 	margin-left: 133px;
 	align-self: center;
-}
-.contact-form-btn:hover {
-	background-color: #188CE8;
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.01), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
+
+	&:hover {
+		background-color: #188CE8;
+		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.01), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+		border-radius: 4px;
+	}
 }

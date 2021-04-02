@@ -73,9 +73,10 @@
 	background-color: #fff;
 	background:rgba(255, 255, 255, 0.1);
 	transition: 250ms;
-}
-.icon-li:hover {
-	background-color: #2196f3;
+
+	&:hover {
+		background-color: #2196f3;
+	}
 }
   .icon-instagram2 {
 	margin: auto;

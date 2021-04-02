@@ -81,9 +81,10 @@
 }
 .clients-navigation {
 	transition: 250ms;
-}
-.clients-navigation:hover {
-	fill: #2196F3;
-	border: 1px solid #2196F3;
-	cursor: pointer;
+
+	&:hover {
+		fill: #2196F3;
+		border: 1px solid #2196F3;
+		cursor: pointer;
+	}
 }
