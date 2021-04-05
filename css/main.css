@@ -987,7 +987,7 @@ img {
   background-color: #2196f3;
 }
 
-.portfolio-list {
+.portfolio__list {
   flex-wrap: wrap;
   display: flex;
   margin-top: 50px;
@@ -995,14 +995,14 @@ img {
   justify-content: center;
 }
 
-.portfolio-kart {
+.portfolio__kart {
   outline: 1px solid #F5F4FA;
   margin-right: 30px;
   margin-bottom: 30px;
   transition: 250ms;
 }
 
-.portfolio-kart:hover {
+.portfolio__kart:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
