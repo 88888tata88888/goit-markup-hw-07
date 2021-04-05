@@ -14,7 +14,7 @@
 	line-height: 1.16;
 	letter-spacing: 0.01em;
 }
-.contacts-form-footer {
+.contacts-form__footer {
 	width: 358px;
 	height: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
@@ -29,7 +29,7 @@
 		border: 1px solid rgba(255, 255, 255, 0.3);
 	}
 }
-.contacts-form-footer::placeholder {
+.contacts-form__footer::placeholder {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -38,7 +38,7 @@
 	letter-spacing: 0.01em;
 	color: rgba(255, 255, 255, 0.6);
 }
-.button-footer {
+.button__footer {
 	justify-content: center;
 	width: 200px;
 	font-family: "Roboto", sans-serif;
@@ -63,7 +63,7 @@
 		border-radius: 4px;
 	}
 }
-.icon-button {
+.icon__button {
 	fill: #fff;
 	width: 24px;
 	height: 24px;
@@ -75,7 +75,7 @@
 	display: flex;
 	display: block;
 }
-.modal-form-icon {
+.modal__form-icon {
 	position: absolute;
 	display: block;
 	width: 18px;

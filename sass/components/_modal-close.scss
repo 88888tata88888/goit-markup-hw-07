@@ -20,7 +20,7 @@
 	}
 }
 
-.modal-close-btn {
+.modal__close_btn {
 	display: flex;
 	position: absolute;
 	top: 8px;
@@ -40,7 +40,7 @@
 	visibility: hidden;
 	pointer-events: none;
 }
-.modal-h3 {
+.modal__h3 {
 	font-family: "Roboto", sans-serif;
 	color: #212121;
 	font-style: normal;

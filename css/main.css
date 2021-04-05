@@ -327,14 +327,14 @@ img {
   color: #212121;
 }
 
-.service-list {
+.service__list {
   display: flex;
   justify-content: center;
   margin-bottom: 94px;
   margin-top: 50px;
 }
 
-.caption-pic {
+.caption__pic {
   padding-right: 30px;
   position: relative;
 }
@@ -448,7 +448,7 @@ img {
   margin-top: 94px;
 }
 
-.clients-title {
+.clients__title {
   justify-content: center;
   display: flex;
   margin-bottom: 94px;
@@ -533,11 +533,11 @@ img {
   justify-content: center;
 }
 
-.clients-navigation {
+.clients__navigation {
   transition: 250ms;
 }
 
-.clients-navigation:hover {
+.clients__navigation:hover {
   fill: #2196F3;
   border: 1px solid #2196F3;
   cursor: pointer;
@@ -689,7 +689,7 @@ img {
   fill: #2196F3;
 }
 
-.modal-close-btn {
+.modal__close_btn {
   display: flex;
   position: absolute;
   top: 8px;
@@ -711,7 +711,7 @@ img {
   pointer-events: none;
 }
 
-.modal-h3 {
+.modal__h3 {
   font-family: "Roboto", sans-serif;
   color: #212121;
   font-style: normal;
@@ -741,7 +741,7 @@ img {
   letter-spacing: 0.01em;
 }
 
-.contacts-form-footer {
+.contacts-form__footer {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -752,12 +752,12 @@ img {
   background-color: #2f303a;
 }
 
-.contacts-form-footer:focus {
+.contacts-form__footer:focus {
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.contacts-form-footer::placeholder {
+.contacts-form__footer::placeholder {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -767,7 +767,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.button-footer {
+.button__footer {
   justify-content: center;
   width: 200px;
   font-family: "Roboto", sans-serif;
@@ -787,13 +787,13 @@ img {
   margin-left: 12px;
 }
 
-.button-footer:hover {
+.button__footer:hover {
   background-color: #188CE8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.01), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
-.icon-button {
+.icon__button {
   fill: #fff;
   width: 24px;
   height: 24px;
@@ -807,7 +807,7 @@ img {
   display: block;
 }
 
-.modal-form-icon {
+.modal__form-icon {
   position: absolute;
   display: block;
   width: 18px;
@@ -819,7 +819,7 @@ img {
   transition: 250ms;
 }
 
-.contacts-form-input {
+.contacts-form__input {
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
@@ -830,12 +830,12 @@ img {
   transition: 250ms;
 }
 
-.contacts-form-input:focus {
+.contacts-form__input:focus {
   outline: none;
   border: 1px solid #2196F3;
 }
 
-.contacts-form-input:focus + .modal-form-icon {
+.contacts-form__input:focus + .modal-form-icon {
   fill: #2196f3;
 }
 
@@ -850,7 +850,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.contact-form-massage {
+.contact-form__massage {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -865,12 +865,12 @@ img {
   transition: 250ms;
 }
 
-.contact-form-massage:focus {
+.contact-form__massage:focus {
   outline: none;
   border: 1px solid #2196F3;
 }
 
-.contact-form-massage::placeholder {
+.contact-form__massage::placeholder {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -890,7 +890,7 @@ img {
   letter-spacing: 0.01em;
 }
 
-.modal-text-span {
+.modal-text__span {
   display: flex;
   font-family: "Roboto", sans-serif;
   color: #757575;
@@ -903,7 +903,7 @@ img {
   margin-top: 20px;
 }
 
-.contacts-form-box:checked + .modal-text-span::before {
+.contacts-form__box:checked + .modal-text__span::before {
   background-image: url(../images/Vectorh.svg);
   background-color: #2196F3;
   background-position: center;
@@ -913,7 +913,7 @@ img {
   border-radius: 2px;
 }
 
-.modal-text-span::before {
+.modal-text__span::before {
   content: "";
   display: block;
   width: 16px;
@@ -924,7 +924,7 @@ img {
   margin-right: 8px;
 }
 
-.contact-form-btn {
+.contact-form__btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -942,7 +942,7 @@ img {
   align-self: center;
 }
 
-.contact-form-btn:hover {
+.contact-form__btn:hover {
   background-color: #188CE8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.01), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;

@@ -1,7 +1,7 @@
 .clients {
 	margin-top: 94px;
 }
-.clients-title {
+.clients__title {
 	justify-content: center;
 	display: flex;
 	margin-bottom: 94px;
@@ -79,7 +79,7 @@
 	align-items: center;
 	justify-content: center;
 }
-.clients-navigation {
+.clients__navigation {
 	transition: 250ms;
 
 	&:hover {
